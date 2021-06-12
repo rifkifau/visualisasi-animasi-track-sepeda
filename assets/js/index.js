@@ -119,7 +119,7 @@ layerControl.addOverlay( markerMonas, `Moving Marker`,
     {groupName : `Sepedaan Monas <button type='button' onclick='map.fitBounds(antMonas.getBounds())' class='zoom-monas fa fa-map'></button>`} );
     
 let snakeMonas = new L.polyline(latlngsMonas, {weight: 2, color: "#ED5A62", snakingSpeed: 50, followHead: false});
-map.addLayer(snakeMonas);  
+// map.addLayer(snakeMonas);  
 layerControl.addOverlay( snakeMonas, `Slithering Snake`,
     `<button type='button' onclick='snakeMonas.snakeIn()' class='play fa fa-play-circle'></button>
     <button type='button' onclick='snakeMonas.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
@@ -146,7 +146,7 @@ layerControl.addOverlay( antMonas, "Marching Ants",
         {groupName : `Sepedaan SCBD <button type='button' onclick='map.fitBounds(antSCBD.getBounds())' class='zoom-scbd fa fa-map'></button>`} );
     
     let snakeSCBD = new L.polyline(latlngsSCBD, {weight: 2, color: "#978A7A", snakingSpeed: 50, followHead: false});
-    map.addLayer(snakeSCBD);  
+//     map.addLayer(snakeSCBD);  
     layerControl.addOverlay( snakeSCBD, `Slithering Snake`,
         `<button type='button' onclick='snakeSCBD.snakeIn()' class='play fa fa-play-circle'></button>
         <button type='button' onclick='snakeSCBD.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
@@ -172,7 +172,7 @@ layerControl.addOverlay( antMonas, "Marching Ants",
         {groupName : `Sepedaan Kost Si J <button type='button' onclick='map.fitBounds(antSiJ.getBounds())' class='zoom-sij fa fa-map'></button>`} );
     
     let snakeSiJ = new L.polyline(latlngsSiJ, {weight: 2, color: "#942790", snakingSpeed: 50, followHead: false});
-    map.addLayer(snakeSiJ);  
+//     map.addLayer(snakeSiJ);  
     layerControl.addOverlay( snakeSiJ, `Slithering Snake`,
         `<button type='button' onclick='snakeSiJ.snakeIn()' class='play fa fa-play-circle'></button>
         <button type='button' onclick='snakeSiJ.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
@@ -198,7 +198,7 @@ layerControl.addOverlay( antMonas, "Marching Ants",
         {groupName : `Sepedaan GBK <button type='button' onclick='map.fitBounds(antGBK.getBounds())' class='zoom-gbk fa fa-map'></button>`} );
     
     let snakeGBK = new L.polyline(latlngsGBK, {weight: 2, color: "#09A2B0", snakingSpeed: 50, followHead: false});
-    map.addLayer(snakeGBK);  
+//     map.addLayer(snakeGBK);  
     layerControl.addOverlay( snakeGBK, `Slithering Snake`,
         `<button type='button' onclick='snakeGBK.snakeIn()' class='play fa fa-play-circle'></button>
         <button type='button' onclick='snakeGBK.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
@@ -224,7 +224,7 @@ layerControl.addOverlay( antMonas, "Marching Ants",
         {groupName : `Sepedaan ITC <button type='button' onclick='map.fitBounds(antITC.getBounds())' class='zoom-itc fa fa-map'></button>`} );
     
     let snakeITC = new L.polyline(latlngsITC, {weight: 2, color: "#526E1A", snakingSpeed: 50, followHead: false});
-    map.addLayer(snakeITC);  
+//     map.addLayer(snakeITC);  
     layerControl.addOverlay( snakeITC, `Slithering Snake`,
         `<button type='button' onclick='snakeITC.snakeIn()' class='play fa fa-play-circle'></button>
         <button type='button' onclick='snakeITC.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
@@ -250,7 +250,7 @@ layerControl.addOverlay( antMonas, "Marching Ants",
         {groupName : `Sepedaan Taman Banteng <button type='button' onclick='map.fitBounds(antBanteng.getBounds())' class='zoom-tmn-banteng fa fa-map'></button>`} );
     
     let snakeBanteng = new L.polyline(latlngsBanteng, {weight: 2, color: "#BFC0C4", snakingSpeed: 50, followHead: false});
-    map.addLayer(snakeBanteng);  
+//     map.addLayer(snakeBanteng);  
     layerControl.addOverlay( snakeBanteng, `Slithering Snake`,
         `<button type='button' onclick='snakeBanteng.snakeIn()' class='play fa fa-play-circle'></button>
         <button type='button' onclick='snakeBanteng.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
@@ -276,7 +276,7 @@ layerControl.addOverlay( antMonas, "Marching Ants",
         {groupName : `Sepedaan Kost Si H, Y, F <button type='button' onclick='map.fitBounds(antSiHYF.getBounds())' class='zoom-sih-siy-sif fa fa-map'></button>`} );
     
     let snakeSiHYF = new L.polyline(latlngsSiHYF, {weight: 2, color: "#FFCB2A", snakingSpeed: 50, followHead: false});
-    map.addLayer(snakeSiHYF);  
+//     map.addLayer(snakeSiHYF);  
     layerControl.addOverlay( snakeSiHYF, `Slithering Snake`,
         `<button type='button' onclick='snakeSiHYF.snakeIn()' class='play fa fa-play-circle'></button>
         <button type='button' onclick='snakeSiHYF.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
@@ -302,7 +302,7 @@ layerControl.addOverlay( antMonas, "Marching Ants",
         {groupName : `Sepedaan Si A <button type='button' onclick='map.fitBounds(antSiA.getBounds())' class='zoom-sia fa fa-map'></button>`} );
     
     let snakeSiA = new L.polyline(latlngsSiA, {weight: 2, color: "#5A86C5", snakingSpeed: 50, followHead: false});
-    map.addLayer(snakeSiA);  
+//     map.addLayer(snakeSiA);  
     layerControl.addOverlay( snakeSiA, `Slithering Snake`,
         `<button type='button' onclick='snakeSiA.snakeIn()' class='play fa fa-play-circle'></button>
         <button type='button' onclick='snakeSiA.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
@@ -328,7 +328,7 @@ layerControl.addOverlay( antMonas, "Marching Ants",
         {groupName : `Sepedaan Staycation <button type='button' onclick='map.fitBounds(antStaycation.getBounds())' class='zoom-staycation fa fa-map'></button>`} );
     
     let snakeStaycation = new L.polyline(latlngsStaycation, {weight: 2, color: "#882200", snakingSpeed: 50, followHead: false});
-    map.addLayer(snakeStaycation);  
+//     map.addLayer(snakeStaycation);  
     layerControl.addOverlay( snakeStaycation, `Slithering Snake`,
         `<button type='button' onclick='snakeStaycation.snakeIn()' class='play fa fa-play-circle'></button>
         <button type='button' onclick='snakeStaycation.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
@@ -354,7 +354,7 @@ layerControl.addOverlay( antMonas, "Marching Ants",
         {groupName : `Sepedaan Cattleya <button type='button' onclick='map.fitBounds(antCattleya.getBounds())' class='zoom-cattleya fa fa-map'></button>`} );
     
     let snakeCattleya = new L.polyline(latlngsCattleya, {weight: 2, color: "#C2E1F6", snakingSpeed: 50, followHead: false});
-    map.addLayer(snakeCattleya);  
+//     map.addLayer(snakeCattleya);  
     layerControl.addOverlay( snakeCattleya, `Slithering Snake`,
         `<button type='button' onclick='snakeCattleya.snakeIn()' class='play fa fa-play-circle'></button>
         <button type='button' onclick='snakeCattleya.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
@@ -380,7 +380,7 @@ layerControl.addOverlay( antMonas, "Marching Ants",
         {groupName : `Sepedaan Kost Si D, H, Y, F <button type='button' onclick='map.fitBounds(antSiDHYF.getBounds())' class='zoom-sid-sih-siy-sif fa fa-map'></button>`} );
     
     let snakeSiDHYF = new L.polyline(latlngsSiDHYF, {weight: 2, color: "#97BF3A", snakingSpeed: 50, followHead: false});
-    map.addLayer(snakeSiDHYF);  
+//     map.addLayer(snakeSiDHYF);  
     layerControl.addOverlay( snakeSiDHYF, `Slithering Snake`,
         `<button type='button' onclick='snakeSiDHYF.snakeIn()' class='play fa fa-play-circle'></button>
         <button type='button' onclick='snakeSiDHYF.snakeReset()' class='stop fa fa-stop-circle'></button>`, 
