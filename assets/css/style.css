@@ -1,0 +1,70 @@
+html, body, #map {
+    width: 100%;
+    position:absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    top: 0
+}
+
+button {
+    border: none;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.menu-item-checkbox {
+    margin: 2px 0
+}
+
+span>label {
+    margin-right: 5px;
+}
+
+.tombol {
+    float: right;
+}
+
+/* button {background-color: #3e8e41} */
+
+
+.zoom-monas {margin-left: 5px; background-color: #02BCF9;}
+.zoom-monas:hover {background-color: #005C8D;}
+
+.zoom-scbd {margin-left: 5px; background-color: #FFE82A;}
+.zoom-scbd:hover {background-color: #aa9901;}
+
+.zoom-sij {margin-left: 5px; background-color: #A1D8B8;}
+.zoom-sij:hover {background-color: #478f65;}
+
+.zoom-gbk {margin-left: 5px; background-color: #a04703;}
+.zoom-gbk:hover {background-color: #562602;}
+
+.zoom-itc {margin-left: 5px; background-color: #EC84B7;}
+.zoom-itc:hover {background-color: #a54674;}
+
+.zoom-tmn-banteng {margin-left: 5px; background-color: #526D1C;}
+.zoom-tmn-banteng:hover {background-color: #31420f;}
+
+.zoom-sih-siy-sif {margin-left: 5px; background-color: #ED468B;}
+.zoom-sih-siy-sif:hover {background-color: #8a1a49;}
+
+.zoom-sia {margin-left: 5px; background-color: #BFC0C2;}
+.zoom-sia:hover {background-color: #535455;}
+
+.zoom-staycation {margin-left: 5px; background-color: #FCAE3F;}
+.zoom-staycation:hover {background-color: #9e6c26;}
+
+.zoom-tmn-cattleya {margin-left: 5px; background-color: #58A940;}
+.zoom-tmn-cattleya:hover {background-color: #2c5e1d;}
+
+.zoom-sid-sih-siy-sif {margin-left: 5px; background-color: #003D7E;}
+.zoom-sid-sih-siy-sif:hover {background-color: #011f41;}
+
+.play {background-color: #01DC2A;}
+.play:hover {background-color: #006609;}
+
+.stop {background-color:#E60004;}
+.stop:hover {background-color:#93000B;}
+
+button:active {transform: translateY(1px);}
