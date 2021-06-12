@@ -115,7 +115,7 @@ let markerMonas = L.Marker.movingMarker(latlngsMonas, 50000, {rotate: true, icon
 // map.addLayer(markerMonas);  
 layerControl.addOverlay( markerMonas, `Moving Marker`,
     `<button type='button' onclick='markerMonas.start()' class='play fa fa-play-circle'></button>
-    <button type='button' id='pause-marker-monas' class='stop fa fa-stop-circle'></button>`, 
+    <button type='button' onclick='markerMonas.pause()' class='stop fa fa-stop-circle'></button>`, 
     {groupName : `Sepedaan Monas <button type='button' onclick='map.fitBounds(antMonas.getBounds())' class='zoom-monas fa fa-map'></button>`} );
     
 let snakeMonas = new L.polyline(latlngsMonas, {weight: 2, color: "#ED5A62", snakingSpeed: 50, followHead: false});
